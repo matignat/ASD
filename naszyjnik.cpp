@@ -56,9 +56,11 @@ ll make_necklace(const int n, const ll k, const vector<int> &beads)
 
 int main()
 {
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+
     // Data parsing
     int n, k;
-
     cin >> n >> k;
 
     vector<int> beads(n);
